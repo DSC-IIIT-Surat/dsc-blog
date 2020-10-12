@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, CssBaseline } from "@material-ui/core";
 
+import blogStyles from "./style";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 // Section of Blog Categories in Header
 const categories = [
@@ -15,13 +17,20 @@ const categories = [
 ];
 
 export default function Blog() {
+  const classes = blogStyles();
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="lg">
-        <Header title="DSC Blogs" categories={categories} />
-        <main></main>
-      </Container>
-    </React.Fragment>
+    <div className={classes.root}>
+      <React.Fragment>
+        <CssBaseline />
+        <Container maxWidth="lg">
+          <Header title="DSC Blogs" categories={categories} />
+          <main></main>
+        </Container>
+        <Footer
+          title="Footer"
+          description="Something here to give the footer a purpose!"
+        />
+      </React.Fragment>
+    </div>
   );
 }
