@@ -5,6 +5,7 @@ import blogStyles from "./style";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainFeaturedBlog from "./components/MainFeaturedBlog";
+import FeaturedBlog from "./components/FeaturedBlog";
 
 // Section of Blog Categories in Header
 const categories = [
@@ -56,11 +57,11 @@ export default function Blog() {
           <Header title="DSC Blogs" categories={categories} />
           <main>
             <MainFeaturedBlog post={mainFeaturedPost} />
-            {/* <Grid container spacing={4}>
+            <Grid container spacing={4}>
               {featuredPosts.map((post) => (
                 <FeaturedBlog key={post.title} post={post} />
               ))}
-            </Grid> */}
+            </Grid>
           </main>
         </Container>
         <Footer
