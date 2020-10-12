@@ -18,7 +18,7 @@ const categories = [
   { title: "Embedded Systems Development", url: "#" },
 ];
 
-// Featured Blog Post
+// Featured Blog Posts
 const mainFeaturedPost = {
   title: "Title of a longer featured blog post",
   description:
