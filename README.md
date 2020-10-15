@@ -49,5 +49,4 @@ You can contribute to this repository in following ways.
 
 ### Maintainers
 [Krishna Ojha](https://github.com/coder-KO)
-
 [Ekta Arora](https://github.com/ektaarora3501)
