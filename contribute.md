@@ -9,7 +9,7 @@
 * Wait for our reply and then you are good to go.! (We promise we won't delay in replying unless untill we are stuck in exams :sweat_smile:)
 * Now you got the issue to work on.! Time for some coffee and code :coffee: :computer:
 
-#### 2. Cloning and running interact
+#### 2. Cloning and running dsc-blog
 * Create a branch with name **develop-yourName**. For Example if I have to contribute to the repo, my branch name would be develop-ekta.
 * Clone the repo in your local machine 
 * Change the branch from main to develop-yourName using command  ```$ git checkout develop-yourName``` 
