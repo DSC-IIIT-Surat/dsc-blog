@@ -48,6 +48,5 @@ You can contribute to this repository in following ways.
  Ping us your issues at our telegram channel [telegram](https://t.me/DscIIITSurat)
 
 ### Maintainers
-[Krishna Ojha](https://github.com/coder-KO)
-
-[Ekta Arora](https://github.com/ektaarora3501)
+* [Krishna Ojha](https://github.com/coder-KO)
+* [Ekta Arora](https://github.com/ektaarora3501)
